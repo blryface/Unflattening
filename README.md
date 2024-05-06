@@ -8,7 +8,7 @@ Because it's obviously better. You can remember what blocks each number represen
 
 In all seriousness, mostly for fun 
 
-## What are the supprted versions?
+## What are the supported versions?
 We plan to support everything from 1.13 to the latest release.
 
 We will use the `rift/1.13` and `fabric/1.14` trough `fabric/1.20.6` for the code for each version.
