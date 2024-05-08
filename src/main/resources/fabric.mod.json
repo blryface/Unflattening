@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "theunflattening",
+	"version": "${version}",
+	"name": "The Unflattening",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Blurryface",
+		"WorldWidePixel"
+	],
+	"contact": {
+		"homepage": "https://blurryface.xyz",
+		"sources": "https://github.com/blryface/Unflattening"
+	},
+	"license": "MIT",
+	"icon": "assets/theunflattening/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"xyz.blryface.theunflattening.TheUnflattening"
+		]
+	},
+	"mixins": [
+		"theunflattening.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.14",
+		"java": ">=8",
+		"fabric": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
